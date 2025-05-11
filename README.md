@@ -30,11 +30,11 @@ This is a **Java GUI** based desktop application for **User Management** using *
 git clone https://github.com/sujitchavda01/JAVA-FRAME-CRUD-OPERATION.git
 ```
 
-###2. Setup MySQL Database
+### 2. Setup MySQL Database
 
--Create a database named userdb.
--Create a table users with the appropriate fields.
-#Example SQL:
+- Create a database named userdb.
+- Create a table users with the appropriate fields.
+- Example SQL:
 ```bash
 CREATE TABLE users (
   id INT PRIMARY KEY AUTO_INCREMENT,
@@ -44,9 +44,9 @@ CREATE TABLE users (
 );
 ```
 
-###3. Configure JDBC Connection
+### 3. Configure JDBC Connection
 
--In the project, locate the database connection section (usually in a file/class like DBConnection.java) and update the credentials:
+- In the project, locate the database connection section (usually in a file/class like DBConnection.java) and update the credentials:
 
 ```bash
 String url = "jdbc:mysql://localhost:3306/userdb";
@@ -54,11 +54,11 @@ String username = "your_mysql_username";
 String password = "your_mysql_password";
 ```
 
-###4. Run the Application
+### 4. Run the Application
 
--Open the project in your preferred IDE (NetBeans, IntelliJ IDEA, Eclipse, etc.).
--Compile and run the project.
--The GUI window will open with options to Add, View, Update, and Delete users.
+- Open the project in your preferred IDE (NetBeans, IntelliJ IDEA, Eclipse, etc.).
+- Compile and run the project.
+- The GUI window will open with options to Add, View, Update, and Delete users.
 
 
 
